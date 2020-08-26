@@ -25,10 +25,6 @@ steps:
 - name: 'gcr.io/$PROJECT_ID/terraform'
   args:
   - version
-  - -debug
-  - -var
-  - project_id=$PROJECT_ID
-  - vault.json
   waitFor: ['fetch-tf', 'build-docker-image', 'get-serviceaccount']
   id: 'tf-dry-run'
 tags: ['cloud-builders-community']
