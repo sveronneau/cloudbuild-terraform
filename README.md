@@ -1,6 +1,6 @@
 # Quick GCP Cloud Build CI pipeline to makes a Terraform Docker artifact in GCR.IO.
 
-From CLOUD SHELL or your local SDK or a Build Trigger (Check PNG file) in Cloud Build.
+From CLOUD SHELL or your local SDK or a Build Trigger in Cloud Build.
 
 <b>Clone this repo:</b><br>
 $ git clone https://github.com/sveronneau/cloudbuild-terraform <br>
